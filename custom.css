@@ -1,0 +1,44 @@
+ 
+        .para{
+            font-size: 4vw
+        }
+        .teks1{
+            font-size: 2vw;
+        }
+}
+    @media (min-width: 425px) {
+    .textwell{
+    font-size: 15px;
+        }
+    .teks1{
+            font-size: 4vw;
+        }
+}
+     @media (min-width: 1024px) {
+    .text{
+    font-size: 55px;
+        }
+         .para{
+            font-size: 3vw
+        }
+         .teks1{
+            font-size: 2vw;
+        }
+}
+    @media (min-width: 1440px) {
+    .text{
+    font-size: 80px;
+  }
+        .textwell{
+    font-size: 25px;
+        }
+}
+    @media (min-width: 1366px) {
+    .text{
+    font-size: 80px;
+  }
+        .textwell{
+    font-size: 25px;
+        }
+        
+}
