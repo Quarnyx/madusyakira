@@ -1,26 +1,175 @@
- 
-        .para{
-            font-size: 4vw
+
+        #header-wrapper {
+        background: #fff;
+        width: 100%;
+        height: auto;
+        margin: 0 auto;
+        border: 1px solid #eaeaea;
+    }
+
+    .header {
+        text-align: center
+    }
+
+    #content-wrapper {
+        background: transparent;
+        width: 65%;
+        float: left;
+        border: 1px solid #eaeaea;
+        margin: 10px 0;
+    }
+
+    #sidebar-wrapper {
+        background: transparent;
+        width: 30%;
+        float: right;
+        border: 1px solid #eaeaea;
+        margin: 10px 0;
+    }
+
+    #footer-wrapper {
+        background: transparent;
+        width: 100%;
+        border: 1px solid #eaeaea;
+        margin: 10px 0;
+    }
+    
+    .section-title{
+        font-size: 20px;
+    }
+    
+        .divider{
+            width: 10.66rem;
+            height: .55555rem;
+            position: relative;
+            margin: 25px auto 0;
         }
-        .teks1{
+    .divider:before {
+    position: absolute;
+    content: '';
+    width: 7rem;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background: #ffc400;
+    -webkit-border-radius: 3.33333rem;
+    border-radius: 3.33333rem;
+}
+        .divider:after {
+    position: absolute;
+    content: '';
+    width: 2rem;
+    height: 100%;
+    right: 0;
+    top: 0;
+    background: #ffc400;
+    -webkit-border-radius: 3.33333rem;
+    border-radius: 3.33333rem;
+            
+        
+}
+        .testimonials{
+            margin: 50px auto 100px;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            grid-gap: 20px;
+            
+        }
+        .testimonials .box{
+            position: relative;
+            width: 350px;
+            margin: 0 auto;
+            background: #fff;
+            padding: 20px;
+            box-sizing: border-box;
+            text-align: center;
+            box-shadow: 0 10px 40px rgba(0,0,0,.5);
+            overflow: hidden;
+            
+        }
+        .testimonials .box1{
+            position: relative;
+            width: 400px;
+            margin: 0 auto;
+            background: #fff;
+            padding: 20px;
+            box-sizing: border-box;
+            text-align: center;
+            box-shadow: 0 10px 40px rgba(0,0,0,.5);
+            overflow: hidden;
+            
+        }
+        .testimonials .box .layer{
+            position: absolute;
+            top: calc(100% - 2px);
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(#ffc400, #ff7907);
+            z-index: 1;
+            transition: 0.5s;
+        }
+        .testimonials .box:hover .layer{
+            top:0;
+        }
+        .testimonials .box .content{
+            position: relative;
+            z-index: 2;
+        }
+        .testimonials .box .content p{
+            font-size: 18px;
+            line-height: 24px;
+            color: #000000;
+        }
+        .testimonials .box .content h2{
+            font-size: 13px;
+            color: #000000;
+        }
+        .testimonials .box .content h2 span{
+            color: #ffc400;
+            font-size: 14px;
+            transition: 0.5s;
+            line-height: 2;
+        }
+        .testimonials .box:hover .content h2 span{
+            color: #fff;
+            
+        }
+        
+    @media (min-width: 768px) {
+    .text{
+    font-size: 64px;
+    
+        }
+    .section-title{
+            font-size: 42px;
+        }
+    .teks1{
             font-size: 2vw;
+        }
+        #navbar{
+            float: right;
+        }
+        .harga{
+            font-size: 40px;
         }
 }
     @media (min-width: 425px) {
     .textwell{
     font-size: 15px;
         }
-    .teks1{
-            font-size: 4vw;
-        }
+   
+        
 }
      @media (min-width: 1024px) {
     .text{
     font-size: 55px;
         }
-         .para{
-            font-size: 3vw
+         .teks-jumbotron{
+            font-size: 21px;
         }
+         
+        
          .teks1{
             font-size: 2vw;
         }
@@ -42,3 +191,61 @@
         }
         
 }
+        .sbox{
+            width: 100%;
+            position: relative;
+            overflow-x: hidden;
+        }
+        .slider{
+            position: relative;
+            width: 500%;
+            animation: animate 10s linear infinite;
+        }
+        .slide{
+            background-repeat: no-repeat;
+            position: relative;
+            width: 20%;
+            float: left;
+            height: 100vh;
+            
+        }
+        .slide{
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+        .slide:nth-child(1){
+            background: url(Madu%20Penyubur.png);
+            background-size: cover;
+            
+        }
+        .slide:nth-child(2){
+            background: url(m1.png);
+            background-size: cover;
+        }
+        .slide:nth-child(3){
+            background: url(m2.png);
+            background-size: cover;
+        }
+        @keyframes animate{
+            0%{
+                left: 0;
+            }
+             33%{
+                left: 0;
+            }
+             40%{
+                left: -100%;
+            } 
+            66%{
+                left: -100%;
+            }
+             73%{
+                left: -200%;
+            }
+             96%{
+                left: -200%;
+            }
+             100%{
+                left: 0;
+            }
+        }
