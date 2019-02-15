@@ -265,17 +265,17 @@ th {
 }
 @font-face {
   font-family: 'FiraSans';
-    src: url('../fonts/FiraSans-Bold.ttf');
+    src: url('https://rawcdn.githack.com/Quarnyx/madusyakira/c14ad2af29908e26bc8c2bac0d7c651ebe243a30/FiraSans-Bold.ttf');
 }
 @font-face {
   font-family: 'Montserrat';
-    src: url('../fonts/Montserrat-Medium.ttf');
+    src: url('https://rawcdn.githack.com/Quarnyx/madusyakira/c14ad2af29908e26bc8c2bac0d7c651ebe243a30/Montserrat-Medium.ttf');
 }
 @font-face {
   font-family: 'Glyphicons Halflings';
 
-  src: url('../fonts/glyphicons-halflings-regular.eot');
-  src: url('../fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('../fonts/glyphicons-halflings-regular.woff2') format('woff2'), url('../fonts/glyphicons-halflings-regular.woff') format('woff'), url('../fonts/glyphicons-halflings-regular.ttf') format('truetype'), url('../fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg');
+  src: url('https://rawcdn.githack.com/Quarnyx/madusyakira/c14ad2af29908e26bc8c2bac0d7c651ebe243a30/glyphicons-halflings-regular.eot');
+  src: url('https://rawcdn.githack.com/Quarnyx/madusyakira/c14ad2af29908e26bc8c2bac0d7c651ebe243a30/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('https://rawcdn.githack.com/Quarnyx/madusyakira/c14ad2af29908e26bc8c2bac0d7c651ebe243a30/glyphicons-halflings-regular.woff2') format('woff2'), url('https://rawcdn.githack.com/Quarnyx/madusyakira/c14ad2af29908e26bc8c2bac0d7c651ebe243a30/glyphicons-halflings-regular.woff') format('woff'), url('https://rawcdn.githack.com/Quarnyx/madusyakira/c14ad2af29908e26bc8c2bac0d7c651ebe243a30/glyphicons-halflings-regular.ttf') format('truetype'), url('https://rawcdn.githack.com/Quarnyx/madusyakira/c14ad2af29908e26bc8c2bac0d7c651ebe243a30/glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg');
 }
 .glyphicon {
   position: relative;
